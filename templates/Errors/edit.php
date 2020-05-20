@@ -24,7 +24,8 @@
                 <?php
                     echo $this->Form->control('error_name');
                     echo $this->Form->control('description');
-                    echo $this->Form->control('source');
+                    echo $this->Form->control('source', [
+                        'options' => ['telegram' => 'Telegram', 'email' => 'Email']]);
                     echo $this->Form->control('time');
                 ?>
             </fieldset>
