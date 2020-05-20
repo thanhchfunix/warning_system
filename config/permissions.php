@@ -131,7 +131,7 @@ return [
         [
             'role' => 'user',
             'controller' => 'Errors',
-            'action' => ['index', 'view']
+            'action' => ['index', 'view', 'add']
         ],
         [
             'role' => 'user',
